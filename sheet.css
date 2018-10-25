@@ -1,0 +1,119 @@
+/* 要素の初期化 */
+* {
+  margin: 0;
+  padding: 0;
+  /* デフォルトのフォント */
+  color: #191970;
+  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, sans-serif;
+  font-size: 11pt;
+  font-weight: normal;
+}
+
+/* ページレイアウト (section.sheet を１ページとする) */
+.sheet {
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  page-break-after: always;
+  margin: auto;
+ /* 用紙サイズ A4 */
+  height: 297mm;
+  width: 210mm;
+  /* 余白サイズ */
+  padding-top: 60mm;
+  padding-left: 10mm;
+  padding-right: 10mm;
+}
+
+/* 汎用クラス */
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.clear-element {
+  clear: both;
+}
+
+
+/* row */
+div.row1 {
+	height: 25mm;
+}
+div.row2 {
+	height: 20mm;
+}
+div.row3 {
+	height: 20mm;
+}
+div.row4 {
+	height: 35mm;
+}
+div.row5 {
+	height: 20mm;
+}
+div.row6 {
+	height: 15mm;
+}
+div.row7 {
+	height: 55mm;
+}
+div.row8 {
+	height: 10mm;
+}
+div.row9 {
+	height: 20mm;
+}
+
+li {
+	padding-bottom: 10px;
+}
+
+/* タイトル */
+h1 {
+  font-size: 25px;
+  font-weight: normal;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+
+/* 相手 */
+div.dear {
+	float: left;
+	width: 80mm;
+}
+
+div.myself {
+	padding-left: 120mm
+}
+
+p.ki {
+	font-size:18px;
+	text-align: center;
+}
+
+p.ki2 {
+	font-size:15px;
+}
+
+small {
+	font-size: 13px;
+}
+
+span.stamp {
+	float: right;
+}
+
+
+
+
